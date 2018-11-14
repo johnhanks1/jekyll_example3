@@ -10,5 +10,5 @@ phases:
       - echo "******** Building Jekyll site ********"
       - jekyll build
 artifacts:
- files: **/*
+ files: "**/*"
  base-directory: _site
